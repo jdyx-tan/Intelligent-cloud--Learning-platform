@@ -1,0 +1,41 @@
+# 环境变量（包含密码和 API Key）
+.env
+
+# Chroma 向量数据库（本地数据，用户需自行重建）
+chroma_db/
+app/chroma_db/
+
+# Python 缓存
+__pycache__/
+app/__pycache__/
+app/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 测试脚本和临时文件
+_reload.py
+_verify.py
+_verify_mysql.py
+test_rag_retrievers.py
+start_chroma_server.py
+dump.rdb
+
+# 其他文档（用户自己决定是否上传）
+AI模块介绍.md
+AI模块开发文档.md
+Java学习路径说明.txt
+开发约定与当前架构说明.md
+服务不可用时的课程答复模板.txt
+知识库补充建议.txt
+课程咨询常见问答.txt
+计算机课程介绍.txt
+
+# .trae 工具目录
+.trae/
