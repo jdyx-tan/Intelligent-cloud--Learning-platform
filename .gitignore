@@ -1,5 +1,6 @@
 # 环境变量（包含密码和 API Key）
 .env
+!.env.example
 
 # Chroma 向量数据库（本地数据，用户需自行重建）
 chroma_db/
